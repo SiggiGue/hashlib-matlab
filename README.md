@@ -62,7 +62,7 @@ ans =
 for more details look into `examples/example.m`
 
 
-## Namespace functions
+## Package functions
 
 ```
 
@@ -81,7 +81,7 @@ xordigest                      - Returns digest by xoring two given digests.
 ```
 
 
-## Supported matlab data types are
+## Supported matlab data types
     
     * struct
     * cell
