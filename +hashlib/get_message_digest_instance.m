@@ -1,5 +1,5 @@
 function md = get_message_digest_instance(algo)
-    % get_message_digest_instance Returns java.security.MessageDigest instance for given algo.
+    % GET_MESSAGE_DIGEST_INSTANCE Returns java.security.MessageDigest instance for given algo.
     %
     % Parameters:
     %   algo ... char

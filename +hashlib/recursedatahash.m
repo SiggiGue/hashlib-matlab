@@ -1,5 +1,5 @@
 function digest = recursedatahash(data, javaMessageDigestInstance)
-    % recursedatahash Returns digest of data usign provided javaMessageDigestInstance.
+    % RECURSEDATAHASH Returns digest of data using provided javaMessageDigestInstance.
     %
     % Parameters:
     %   data ... struct, cell, function_handle, datetime, duration, numeric, char, logical 

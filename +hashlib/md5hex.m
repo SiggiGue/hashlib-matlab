@@ -1,5 +1,5 @@
 function hexdigest = md5hex(data)
-    % md5hex Returns md5 checksum of data as hex char.
+    % MD5HEX Returns md5 checksum of data as hex char.
     %
     % Parameters:
     %   data ... struct, cell, function_handle, datetime, duration, numeric, char, logical 

@@ -1,5 +1,5 @@
 function test
-    % test Run tests for hashlib.
+    % TEST Run tests for hashlib.
 
     algos = hashlib.algorithms();
     assert(length(struct2cell(algos)) > 0, 'No hashing algorithms available.');

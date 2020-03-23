@@ -1,5 +1,5 @@
 function hexdigest = sha256hex(data)
-    % sha256hex Returns sha256 checksum of data as hex char.
+    % SHA256HEX Returns sha256 checksum of data as hex char.
     %
     % Parameters:
     %   data ... struct, cell, function_handle, datetime, duration, numeric, char, logical 

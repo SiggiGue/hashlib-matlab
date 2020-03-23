@@ -1,5 +1,5 @@
 function digest = xordigest(digest1, digest2)
-    % xordigest Returns digest by xoring two given digests.
+    % XORDIGEST Returns digest by xoring two given digests.
     %
     % Parameters:
     %   digest1, digest2 ... MessageDigest.digest 

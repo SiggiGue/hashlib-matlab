@@ -1,5 +1,5 @@
 function digest = datahash(data, algo)
-    % DATAHASH Returns digest of data usign provided algo.
+    % DATAHASH Returns digest of data using provided algo.
     %
     % Parameters:
     %   data ... struct, cell, function_handle, datetime, duration, numeric, char, logical 
