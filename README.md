@@ -2,6 +2,8 @@
 
 Small project for hashing some data types in matlab using `java.security.MessageDigest`.
 
+Tested with **MATLAB R2018b** and **Octave 4.0.0**
+
 
 ## Examples
 
@@ -84,8 +86,6 @@ xordigest                      - Returns digest by xoring two given digests.
     * struct
     * cell
     * function_handle
-    * datetime
-    * duration
     * numeric
     * char
     * logical 

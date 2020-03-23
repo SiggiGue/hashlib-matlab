@@ -35,10 +35,6 @@ function digest = recursedatahash(data, javaMessageDigestInstance)
         end
     elseif isa(data, 'function_handle')
         digest = hashlib.xordigest(digest, hashlib.recursedatahash(functions(data), javaMessageDigestInstance));
-    elseif isdatetime(data)
-        digest = hashlib.xordigest(digest, hashlib.recursedatahash(datenum(data), javaMessageDigestInstance));
-    elseif isduration(data)
-        digest = hashlib.xordigest(digest, hashlib.recursedatahash(seconds(data), javaMessageDigestInstance));
     elseif isnumeric(data)
         javaMessageDigestInstance.update(typecast(data(:), 'uint8'));
         digest = hashlib.xordigest(digest, javaMessageDigestInstance.digest);
